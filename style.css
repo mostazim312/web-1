@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_img{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nav_1_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: azure;
+    padding: 10px;
+}
+.nav_2_container{
+    background-color: pink;
+}
+.nav-2_link_container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_banner{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 0px;
+}
+.nav_footer{
+    display: flex;
+    flex-direction: row;
+}
+.nav_footer_child{
+    text-align: center;
+    padding: 0px 5px;
+}
+.nav_footer_child_title{
+    font-size: 20px;
+    color: purple;
+}
+/* card */
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* First and last columns are equal, middle is twice as wide */
+    grid-gap: 10px;
+    gap: 2%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    justify-items: center;
+    /* display: flex;
+    flex-direction: row; */
+}
+.card{
+    width: 80%;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 15px 10px;
+    border-radius: 5%;
+    margin: 10px 15px;
+    justify-content: center;
+    text-align: center;
+
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    
+}
+.card_image{
+    width: 80%;
+    border-radius: 5%;
+}
+.btn_submit{
+    background-color: purple;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+/* footer */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+.footer_title{
+    color: white;
+}
